@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las 7 Maravillas del Mundo Moderno</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">7 Maravillas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#introduccion">Introducción</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#maravillas">Maravillas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#viajes">Viajes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#rutas">Rutas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar Sesión</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1>Las 7 Maravillas del Mundo Moderno</h1>
+            <p>Descubre los monumentos más impresionantes creados por la humanidad</p>
+        </div>
+    </header>
+
+    <!-- Introducción -->
+    <section id="introduccion" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-center mb-4">Introducción a las Maravillas</h2>
+                    <p>Las Nuevas 7 Maravillas del Mundo Moderno fueron seleccionadas mediante una iniciativa privada de New7Wonders Foundation, basada en una votación mundial por internet y mensajes de texto. Esta selección se dio a conocer el 7 de julio de 2007 en Lisboa, Portugal.</p>
+                    <p>El objetivo de esta iniciativa fue actualizar la lista original de las Siete Maravillas del Mundo Antiguo, de las cuales solo sobrevive la Gran Pirámide de Giza. La selección se basó en monumentos construidos hasta el año 2000, que estuvieran en pie en la actualidad.</p>
+                    <p>Los criterios de selección incluyeron:</p>
+                    <ul>
+                        <li>Valor estético y arquitectónico</li>
+                        <li>Importancia histórica y cultural</li>
+                        <li>Representatividad de logros humanos</li>
+                        <li>Capacidad de inspirar asombro y admiración</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Maravillas - Cards -->
+    <section id="maravillas" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Las 7 Maravillas</h2>
+            <div class="row g-4">
+                <!-- Card 1: Chichén Itzá -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="https://img.static-kl.com/images/media/265EFF4B-A104-4DA9-83F03C998B03B1FE" class="card-img-top" alt="Chichén Itzá">
+                        <div class="card-body">
+                            <h5 class="card-title">Chichén Itzá, México</h5>
+                            <p class="card-text">Antigua ciudad maya famosa por su pirámide escalonada "El Castillo". Fue un centro ceremonial importante entre los años 800 y 1200 d.C.</p>
+                            <ul>
+                                <li>El Castillo: Pirámide de 24 metros</li>
+                                <li>Observatorio astronómico "El Caracol"</li>
+                                <li>Juego de Pelota más grande de Mesoamérica</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 2: Cristo Redentor -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/ab/a0/bd/o-santuario-cristo-redentor.jpg?w=900&h=-1&s=1" class="card-img-top" alt="Cristo Redentor">
+                        <div class="card-body">
+                            <h5 class="card-title">Cristo Redentor, Brasil</h5>
+                            <p class="card-text">Estatua de Jesús de Nazaret con los brazos abiertos situada en la cima del cerro del Corcovado en Río de Janeiro.</p>
+                            <ul>
+                                <li>Altura: 30 metros (38 con el pedestal)</li>
+                                <li>Envergadura de brazos: 28 metros</li>
+                                <li>Construido entre 1926 y 1931</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 3: Coliseo Romano -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Coliseo Romano">
+                        <div class="card-body">
+                            <h5 class="card-title">Coliseo Romano, Italia</h5>
+                            <p class="card-text">Anfiteatro flavio construido en el siglo I d.C. en el centro de Roma. Es el anfiteatro más grande jamás construido.</p>
+                            <ul>
+                                <li>Capacidad original: 50,000 espectadores</li>
+                                <li>Usado para espectáculos públicos</li>
+                                <li>Símbolo de la Roma Imperial</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 4: Gran Muralla China -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="https://www.archaiacreations.com/cdn/shop/articles/La_grande_muraille_de_chine_243a5941-7715-4ebf-a3b1-009b90eaa685.jpg?v=1755441388" class="card-img-top" alt="Gran Muralla China">
+                        <div class="card-body">
+                            <h5 class="card-title">Gran Muralla China</h5>
+                            <p class="card-text">Serie de fortificaciones construidas a lo largo de las fronteras históricas de los estados chinos para protección.</p>
+                            <ul>
+                                <li>Longitud: 21,196 km aproximadamente</li>
+                                <li>Construida entre el siglo V a.C. y el XVI</li>
+                                <li>Visible desde el espacio (mito)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 5: Machu Picchu -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1587595431973-160d0d94add1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Machu Picchu">
+                        <div class="card-body">
+                            <h5 class="card-title">Machu Picchu, Perú</h5>
+                            <p class="card-text">Antigua ciudad inca construida en el siglo XV en lo alto de una montaña a 2,430 metros sobre el nivel del mar.</p>
+                            <ul>
+                                <li>Descubierta en 1911 por Hiram Bingham</li>
+                                <li>Santuario histórico y patrimonio mundial</li>
+                                <li>Arquitectura de piedra seca</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 6: Petra -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="https://content-viajes.nationalgeographic.com.es/medio/2024/12/02/petra_f52be0a5_286721156_241202112647_1280x880.webp" class="card-img-top" alt="Petra">
+                        <div class="card-body">
+                            <h5 class="card-title">Petra, Jordania</h5>
+                            <p class="card-text">Ciudad arqueológica famosa por su arquitectura excavada en la roca y su sistema de conductos de agua.</p>
+                            <ul>
+                                <li>Capital del reino nabateo</li>
+                                <li>El Tesoro (Al-Khazneh) es su monumento más famoso</li>
+                                <li>Redescubierta en 1812</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 7: Taj Mahal -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Taj Mahal">
+                        <div class="card-body">
+                            <h5 class="card-title">Taj Mahal, India</h5>
+                            <p class="card-text">Mausoleo construido entre 1631 y 1654 por el emperador Shah Jahan en memoria de su esposa favorita, Mumtaz Mahal.</p>
+                            <ul>
+                                <li>Considerado la joya del arte musulmán</li>
+                                <li>Mezcla de estilos islámico, persa e indio</li>
+                                <li>Hecho principalmente de mármol blanco</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Opciones de Viaje -->
+    <section id="viajes" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Opciones de Viaje</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Viaje Básico</h5>
+                            <p class="card-text">Visita a 3 maravillas en 15 días</p>
+                            <ul class="list-unstyled">
+                                <li>Alojamiento en hoteles 3 estrellas</li>
+                                <li>Desayunos incluidos</li>
+                                <li>Guía turístico bilingüe</li>
+                                <li>Transporte entre destinos</li>
+                            </ul>
+                            <p class="price">Desde $20500 mxn</p>
+                            <button class="btn btn-primary">Reservar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Viaje Estándar</h5>
+                            <p class="card-text">Visita a 5 maravillas en 21 días</p>
+                            <ul class="list-unstyled">
+                                <li>Alojamiento en hoteles 4 estrellas</li>
+                                <li>Pensión completa</li>
+                                <li>Guía turístico especializado</li>
+                                <li>Vuelos domésticos incluidos</li>
+                            </ul>
+                            <p class="price">Desde $32800 mxn</p>
+                            <button class="btn btn-primary">Reservar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Viaje Premium</h5>
+                            <p class="card-text">Visita a las 7 maravillas en 30 días</p>
+                            <ul class="list-unstyled">
+                                <li>Alojamiento en hoteles 5 estrellas</li>
+                                <li>Gastronomía gourmet</li>
+                                <li>Guía privado y experiencias exclusivas</li>
+                                <li>Vuelos internacionales incluidos</li>
+                            </ul>
+                            <p class="price">Desde $34500 mxn</p>
+                            <button class="btn btn-primary">Reservar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rutas -->
+    <section id="rutas" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Rutas Recomendadas</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Ruta Americana</h5>
+                            <p class="card-text">Explora las maravillas del continente americano</p>
+                            <ol>
+                                <li>Chichén Itzá (México)</li>
+                                <li>Cristo Redentor (Brasil)</li>
+                                <li>Machu Picchu (Perú)</li>
+                            </ol>
+                            <p><strong>Duración:</strong> 15 días</p>
+                            <p><strong>Mejor época:</strong> Abril a octubre</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Ruta Euroasiática</h5>
+                            <p class="card-text">Descubre las maravillas de Europa y Asia</p>
+                            <ol>
+                                <li>Coliseo Romano (Italia)</li>
+                                <li>Petra (Jordania)</li>
+                                <li>Taj Mahal (India)</li>
+                                <li>Gran Muralla China</li>
+                            </ol>
+                            <p><strong>Duración:</strong> 21 días</p>
+                            <p><strong>Mejor época:</strong> Marzo a mayo, septiembre a noviembre</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <div id="mapa-rutas" class="mapa-container">
+                    <p class="text-muted">Mapa interactivo de las rutas (implementación futura)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2023 Las 7 Maravillas del Mundo. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3">Política de Privacidad</a>
+                    <a href="#" class="text-white">Términos y Condiciones</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de Inicio de Sesión -->
+    <div class="modal fade" id="loginModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Iniciar Sesión</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="loginForm">
+                        <div class="mb-3">
+                            <label for="loginEmail" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="loginEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="loginPassword" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="loginPassword" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Recordarme</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
+                    </form>
+                    <div class="text-center mt-3">
+                        <p>¿No tienes cuenta? <a href="#" data-bs-toggle="modal" data-bs-target="#registerModal" data-bs-dismiss="modal">Regístrate aquí</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Registro -->
+    <div class="modal fade" id="registerModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Registro de Usuario</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="registerForm">
+                        <div class="mb-3">
+                            <label for="registerName" class="form-label">Nombre completo</label>
+                            <input type="text" class="form-control" id="registerName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="registerEmail" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="registerEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="registerPassword" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="registerPassword" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="registerConfirmPassword" class="form-label">Confirmar contraseña</label>
+                            <input type="password" class="form-control" id="registerConfirmPassword" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="acceptTerms" required>
+                            <label class="form-check-label" for="acceptTerms">Acepto los términos y condiciones</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Registrarse</button>
+                    </form>
+                    <div class="text-center mt-3">
+                        <p>¿Ya tienes cuenta? <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-dismiss="modal">Inicia sesión aquí</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
