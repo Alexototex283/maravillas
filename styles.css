@@ -93,3 +93,89 @@ section {
         font-size: 1.2rem;
     }
 }
+/* Panel de Administración */
+#adminPanel {
+    background-color: #1a1a1a;
+}
+
+#adminPanel .card {
+    background-color: #2d2d2d;
+    border-color: #444;
+}
+
+#adminPanel .card-header {
+    background-color: #343a40;
+    border-bottom: 1px solid #444;
+}
+
+#wondersList .card {
+    background-color: #3a3a3a;
+}
+
+#wondersList .card-title {
+    color: #fff;
+}
+
+#wondersList .card-text {
+    color: #ccc;
+}
+
+/* Formularios en modo oscuro */
+#adminPanel .form-label {
+    color: #fff;
+}
+
+#adminPanel .form-control {
+    background-color: #3a3a3a;
+    border-color: #555;
+    color: #fff;
+}
+
+#adminPanel .form-control:focus {
+    background-color: #4a4a4a;
+    border-color: #0d6efd;
+    color: #fff;
+}
+/* Panel de Administración */
+#adminPanel {
+    background-color: #1a1a1a;
+}
+
+#adminPanel .card {
+    background-color: #2d2d2d;
+    border-color: #444;
+}
+
+#adminPanel .card-header {
+    background-color: #343a40;
+    border-bottom: 1px solid #444;
+}
+
+#wondersList .card {
+    background-color: #3a3a3a;
+}
+
+#wondersList .card-title {
+    color: #fff;
+}
+
+#wondersList .card-text {
+    color: #ccc;
+}
+
+/* Formularios en modo oscuro */
+#adminPanel .form-label {
+    color: #fff;
+}
+
+#adminPanel .form-control {
+    background-color: #3a3a3a;
+    border-color: #555;
+    color: #fff;
+}
+
+#adminPanel .form-control:focus {
+    background-color: #4a4a4a;
+    border-color: #0d6efd;
+    color: #fff;
+}
